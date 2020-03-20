@@ -1,0 +1,125 @@
+a{
+  color:#11999E;
+}
+
+body{
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+
+}
+
+div{
+
+}
+
+h1{
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /*** 16px = 100% = 1em (usado para tamaño dinamico)***/
+                  /**para 90px en porcentaje seria (90/16)*100 =562.5% **/
+                  /**para 90px en em seria (90/16)=5.625em **/
+  line-height:2;
+  margin: 50px auto 0 auto;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+span{
+  text-decoration: underline;
+}
+
+.bottom-container{
+
+}
+
+.bottom-cloud{
+  bottom: 300px;
+  left: 550px;
+  position: absolute;
+}
+
+.h2-pro{
+  font-weight: normal;
+}
+
+.middle-container{
+
+}
+
+.top-cloud{
+  top:50px;
+  right: 550px;
+  position: absolute;
+}
+
+.top-container{
+  background-color: #e3fdfd;
+
+  padding-top: 100px;
+  position: relative;
+}
+
+.skills{
+
+
+}
+
+.skill-image{
+  width: 25%
+}
+
+.code-img{
+  float: right;
+  margin-left: 30px;
+}
+.skill-code-title{
+  text-align: right;
+}
+
+.skill-code-description{
+  clear: right;
+}
+
+.friend-img{
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-friend-title{
+  text-align: left;
+}
+
+.skill-friend-description{
+  clear: left;
+}
+
+.geo-img{
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-geo-title{
+  text-align: left;
+}
+
+.skill-geo-description{
+  clear: left;
+}
+
+.skill-row{
+  line-height: 2;
+  margin: 100px auto;
+  width: 50%;
+
+}
